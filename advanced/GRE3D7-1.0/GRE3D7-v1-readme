@@ -1,0 +1,65 @@
+THE GRE3D7 CORPUS
+
+What is this?
+-------------------
+The GRE3D7 data set is a collection of referring expressions elicited from human participants in an online language production experiment. The details of the data gathering procedures and some data analysis results are described in the paper included in this distribution package:
+
+Jette Viethen and Robert Dale (2011): GRE3D7: A corpus of distinguishing descriptions for objects in visual scenes. In Proceedings of the Workshop on Using Corpora in Natural Language Generation and Evaluation, Edinburgh, Scotland.
+
+You are free to use the corpus for your own research under the condition that you cite this paper in any publications resulting from your use of the GRE3D3 corpus. 
+
+More details can be found in 
+Jette Viethen (2011): The Generation of Natural Descriptions: Corpus-Based Investigations of Referring Expressions in Visual Domains. PhD Thesis, Macquarie University, Sydney, Australia. Available at www.jetteviethen.net/thesis.
+
+For further information please contact Jette Viethen at jettte@gmail.com.
+
+
+Name
+-------------------
+GRE3D7 stands for _Generating Referring Expressions_ in _3D_ scenes containing _7_ objects.
+
+
+Content
+-------------------
+GRE3D7-v1-descriptions.xml/csv - contains 4480 descriptions of simple objects in 3D scenes of seven objects. (Note: the data in this this file is the exact set that was used in all publications by Viethen and Dale on GRE3D7 including (Viethen and Dale 2011) and (Viethen 2011).)
+
+GRE3D7-v1-demographics.csv - contains anonymous demographic data and information gathered from each participant in a short exit questionnaire.
+
+GRE3D7-stimuli - contains the 32 jpeg images that were used as stimuli in the data gathering experiment. The name of each jpeg file reflects the scene ID number M. 
+
+ViethenDale2011UCNLG.pdf - the above mentioned paper presented at UCNLG+Eval 2011 detailing the data gathering experiment and some of the analysis we have done on the data.
+
+
+The Data
+-------------------
+
+The data is provided in csv and xml format. In this distribution no annotation of the underlying stimulus scene is provided, but this is planned for a future distribution.
+
+GRE3D4-v1-descriptions.xml - The root element CORPUS contains one TRIAL element for each referring expression. Each TRIAL element has the following structure:
+
+<TRIAL id="pNsM" p="N" s="M" o="O">
+	<STRING-DESCRIPTION>
+		<ORIGINAL> 
+			the exact referring expression that participant N typed for 
+			the referent in scene M.
+		</ORIGINAL>
+		<CLEANED>
+			a cleaned version of the original description.
+		</CLEANED>
+		</ORIGINAL>
+	</STRING-DESCRIPTION>
+	<PATTERN>
+		<ORIG_PATTERN>
+			the set of attributes mentioned in the description
+		</ORIG_PATTERN>
+		<REORDERED_PATTERN>
+			the set of attributes mentioned in normalised order
+		</REORDERED_PATTERN>
+	</PATTERN>
+</TRIAL>
+
+N is the participant ID number
+M is the scene ID number
+O the how manieth trial this was for participant N.
+
+GRE3D7-v1-descriptions.csv - contains the same information as GRE3D7-v1-descriptions.xml in csv format.
