@@ -1,0 +1,12 @@
+http://archive.ics.uci.edu/ml/datasets/Wall-Following+Robot+Navigation+Data
+
+Dataset provided is sensor_readings_24.data
+
+
+Represented as follows:
+
+0 = move-forward
+1 = slight-right-turn
+2 = sharp-right-turn
+3 = slight-left-turn
+

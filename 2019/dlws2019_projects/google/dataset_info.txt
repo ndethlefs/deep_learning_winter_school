@@ -1,0 +1,4 @@
+
+Dataset from here: https://archive.ics.uci.edu/ml/datasets/Tarvel+Review+Ratings
+
+Read into Python so that all ratings are rounded and "garden ratings" are predicted.
