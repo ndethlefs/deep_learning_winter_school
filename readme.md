@@ -8,7 +8,7 @@ The 2-day events were designed as a hands-on introduction to the theory and prac
 This repository contains lecture slides and lab sheets, scripts and instructions, from the event, as well as tutorial materials that we used in support. The event also included a number of invited talks from academia and industry and participants had the chance to work on a project (individually in 2018, and in a group in 2019). Finally, there was an opporunity to meet Viper, the University's in-house supercomputer.
 
 
-![alt text](/img/rnnc.jpeg)
+![alt text](/img/rnnc.jpg)
 
 Tutorials, lab and lecture materials for Deep Learning Winter School at Hull Uni
 
