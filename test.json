@@ -1,1 +1,5 @@
-{name : "Panthera leo", "food" : "carnivore", "continent" : "Africa"}
+"data" : [{"category" : "wildlife", 
+	"animals" : [{"name" : "Panthera leo", "food" : "carnivore", "continent" : "Africa"},
+				{"name" : "neophoca cinerea", "food" : "fish", "continent" : "Australia"},
+				{"name" : "calumma hafahafa", "food" : "plants", "continent" : "Africa"}]
+				}]
